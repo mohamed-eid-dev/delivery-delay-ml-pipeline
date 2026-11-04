@@ -1,0 +1,56 @@
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Code Quality
+.ruff_cache/
+.mypy_cache/
+.black/
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Temporary Files
+*.tmp
+*.bak
+
+# Build & Distribution
+build/
+dist/
+*.egg-info/
+
+# Model Artifacts
+*.pkl
+*.joblib
+
+# Local Data (if not intended for Git)
+# data/raw/
+# data/interim/

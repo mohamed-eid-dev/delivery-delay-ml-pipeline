@@ -1,0 +1,35 @@
+# Data Processing
+pandas
+numpy
+polars
+pyarrow
+duckdb
+
+# Data Visualization
+matplotlib
+seaborn
+
+# Machine Learning
+scikit-learn
+
+# API & HTTP
+fastapi
+uvicorn
+requests
+httpx
+
+# Database
+sqlalchemy
+psycopg
+
+# Validation & Configuration
+pydantic
+python-dotenv
+pandera
+PyYAML
+
+# Development & Testing
+black
+ruff
+pytest
+pre-commit
