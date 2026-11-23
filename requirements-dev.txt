@@ -1,0 +1,15 @@
+
+-r requirements.txt
+
+# Data Exploration
+matplotlib
+seaborn
+
+# Development
+black
+ruff
+pytest
+pre-commit
+
+
+airflow

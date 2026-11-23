@@ -1,6 +1,8 @@
 services:
   airflow:
-    build: .
+    build:
+      context: .
+      dockerfile: DockerFile.airFlow
     command: standalone
     user: "${AIRFLOW_UID:-50000}:0"
     ports:

@@ -1,56 +1,107 @@
 
-# Virtual Environment
+# ==========================================
+# 1. Python & Virtual Environments
+# ==========================================
 .venv/
 venv/
 env/
-
-# Python Cache
 __pycache__/
 *.py[cod]
 *$py.class
+*.egg-info/
 
-# Environment Variables
+# ==========================================
+# 2. Environment Variables & Secrets
+# ==========================================
 .env
 .env.*
 !.env.example
 
-# IDE
+# ==========================================
+# 3. IDE & Editor
+# ==========================================
 .vscode/
 .idea/
 
-# Jupyter Notebook
+# ==========================================
+# 4. Jupyter Notebook
+# ==========================================
 .ipynb_checkpoints/
 
-# Testing & Coverage
+# ==========================================
+# 5. Testing & Coverage
+# ==========================================
 .pytest_cache/
 .coverage
 htmlcov/
 
-# Code Quality
+# ==========================================
+# 6. Code Quality & Formatting
+# ==========================================
 .ruff_cache/
 .mypy_cache/
 .black/
 
-# Logs
+# ==========================================
+# 7. Logs & Runtime Files
+# ==========================================
 *.log
+airflow.db
+logs/*
+!logs/.gitkeep
 
-# OS Files
+# ==========================================
+# 8. Build & Distribution
+# ==========================================
+build/
+dist/
+
+# ==========================================
+# 9. Model Artifacts
+# ==========================================
+*.pkl
+*.joblib
+models/*
+!models/.gitkeep
+
+# ==========================================
+# 10. Generated Data
+# ==========================================
+
+# Bronze
+data/bronze/*
+!data/bronze/.gitkeep
+
+# Silver
+data/silver/*
+!data/silver/.gitkeep
+
+# Gold
+data/gold/*
+!data/gold/.gitkeep
+
+# ML Intermediate Data
+data/ml/*
+!data/ml/.gitkeep
+
+# Demo Data
+data/demo/*
+!data/demo/.gitkeep
+
+# ==========================================
+# 11. Metrics & Evaluation Artifacts
+# ==========================================
+metrics/*
+!metrics/.gitkeep
+
+# ==========================================
+# 12. Operating System
+# ==========================================
 .DS_Store
 Thumbs.db
 
-# Temporary Files
+# ==========================================
+# 13. Temporary Files
+# ==========================================
 *.tmp
 *.bak
-
-# Build & Distribution
-build/
-dist/
-*.egg-info/
-
-# Model Artifacts
-*.pkl
-*.joblib
-
-# Local Data (if not intended for Git)
-# data/raw/
-# data/interim/
